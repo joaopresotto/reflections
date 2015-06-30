@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+É criado um arquivo .git, e a partir dele podem ser criadas commits dos arquivos, para facilitar mudanças de linhas de codigos sem que ocorra o risco de se perder algum progresso.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Permite que você adicione à commit somente os arquivos que você quiser, organizando-os de acordo com suas funções, e facilitando o mmudanças.
