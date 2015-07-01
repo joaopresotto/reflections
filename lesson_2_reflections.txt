@@ -5,3 +5,19 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Permite que você adicione à commit somente os arquivos que você quiser, organizando-os de acordo com suas funções, e facilitando o mmudanças.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Usando o comando git diff(Para comparar o "working directory" e a "staging area"), ou o comando git diff -staged(Para comparar a "staging area e o "repository), com o intuito de checar o que foi alterado, para adicionar mudanças atuantes em areas diferentes em commits separadas.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Quando for preciso fazer adicicionar alguma feature não totalmente testada, ou mudar alguma coisa grande no jogo, como a dificuldade por exemplo. Os branches permitem fazer esse tipo de alteração sem mudar o arquivo principal(o funcional).
+
+How do the diagrams help you visualize the branch structure?
+
+Facilita visualizar de onde vieram cada commits(gerando branches), permitindo um controle sobre cada onde cada commit se relaciona com as anteriores a ela ou subsequentes.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Isso "junta" duas commits, removendo linhas(quando isso foi feito em alguma das duas commits) se estas estiverem no arquivo master, e adicionando novas linhas de acordo com o que foi feito nas duas commits.
