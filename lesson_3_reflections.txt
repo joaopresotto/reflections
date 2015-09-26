@@ -3,4 +3,7 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Pois se o Git fazer atualizações automaticas, pode ser que algum codigo com bug passe para o repositorio no GitHub.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork permite copiar um repositorio direto no GitHub, enquanto clone permite salvar esse diretório no computador do usuário. Branches permitem abortar o projeto de uma outra maneira, de maneira local, sem alterar o arquivo principal(funcional).
  
