@@ -6,4 +6,7 @@ Pois se o Git fazer atualizações automaticas, pode ser que algum codigo com bu
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 Fork permite copiar um repositorio direto no GitHub, enquanto clone permite salvar esse diretório no computador do usuário. Branches permitem abortar o projeto de uma outra maneira, de maneira local, sem alterar o arquivo principal(funcional).
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Facilita alterações no código, permitindo saber qual a versão funcional mais recente.
  
