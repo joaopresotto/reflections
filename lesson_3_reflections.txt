@@ -10,3 +10,5 @@ Fork permite copiar um repositorio direto no GitHub, enquanto clone permite salv
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Facilita alterações no código, permitindo saber qual a versão funcional mais recente.
  
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Fazer algo em grupo sem utilizar o git/github torna tudo mais complicado, dificultando alterações no código, etc.
